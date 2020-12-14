@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hoxro", "Hoxro.csproj", "{0160DBB3-F73E-4616-88C8-0AA98C32C30A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0160DBB3-F73E-4616-88C8-0AA98C32C30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0160DBB3-F73E-4616-88C8-0AA98C32C30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0160DBB3-F73E-4616-88C8-0AA98C32C30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0160DBB3-F73E-4616-88C8-0AA98C32C30A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D36BD36-F3CC-46CF-BE39-6BEC75F72851}
+	EndGlobalSection
+EndGlobal
