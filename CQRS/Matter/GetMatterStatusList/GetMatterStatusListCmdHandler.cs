@@ -18,7 +18,7 @@ namespace Hoxro.CQRS.Matter.GetMatterStatusList
         public Task<GetMatterStatusListCmdResponse> Handle(GetMatterStatusListCmd request, CancellationToken cancellationToken)
         {
             var pageId = request.UserRequestCmd.Page;
-            if(pageId==0)
+            if(pageId<=0)
                 throw new Exception("Invalid page id.");
             pageId = pageId-1;
             
